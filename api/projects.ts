@@ -1,41 +1,62 @@
-import express, {Request, Response} from "express";
+import {Request, Response} from "express";
+import {Document, model, Model, Schema} from "mongoose";
 
-type Project = {
-    id: number;
-    title: string;
-    description: string;
-    technologies: string[];
-    screenshots: string[];
-    sourceLink: string | null;
-    demoLink: string | null;
+require("../config/database");
+
+interface IProject extends Document {
+    id: number,
+    title: string,
+    description: string,
+    technologies: [string],
+    screenshots: [string],
+    sourceLink?: string,
+    demoLink?: string,
 }
 
-exports.getProjects = (request: Request, response: Response) => {
-    const projects: Project[] = [
-        {
-            id: 1,
-            title: "Project 1",
-            description: "This is project 1",
-            technologies: ["React", "TypeScript"],
-            screenshots: ["kakakka", "akak"],
-            sourceLink: "alallala",
-            demoLink: null,
-        },
-        {
-            id: 2,
-            title: "Project 2",
-            description: "This is project 2",
-            technologies: ["React", "TypeScript"],
-            screenshots: ["alalal", "aakakk"],
-            sourceLink: null,
-            demoLink: "kakak",
-        },
-    ];
+const ProjectSchema = new Schema<IProject>({
+    id: {type: Number, required: true},
+    title: {type: String, required: true},
+    description: {type: String, required: true},
+    technologies: {type: [String], required: true},
+    screenshots: {type: [String], required: true},
+    sourceLink: String,
+    demoLink: String,
+});
 
-    response.status(200).json({
+exports.getProjects = async (request: Request, response: Response) => {
+    const Project: Model<IProject> = model("Project", ProjectSchema, "projects");
+
+    try {
+        const projects: Array<IProject> = await Project.find({});
+
+        if (!projects || projects.length === 0) {
+            const errorJSON: { status: number, message: string} = {
+                status: 500,
+                message: "Internal Server Error",
+            };
+
+            throw new Error("Internal Server Error");
+
+            console.log(errorJSON);
+            response.status(500).json(errorJSON);
+        }
+
+        const successJSON: { status: number, message: string, data: IProject[] } = {
             status: 200,
             message: "OK",
             data: projects,
-        }
-    );
+        };
+
+        console.log(successJSON);
+        response.status(200).json(successJSON);
+    } catch (e) {
+        console.log(e);
+        const errorJSON: { status: number, message: string} = {
+            status: 500,
+            message: "Internal Server Error",
+        };
+
+        console.log(errorJSON);
+        response.status(500).json(errorJSON);
+    }
 }

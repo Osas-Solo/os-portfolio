@@ -5,11 +5,12 @@ import './App.css';
 import {Container} from "reactstrap";
 import {BrowserRouter as Router} from "react-router-dom";
 import Header from "./partials/Header";
+import Footer from "./partials/Footer";
 
 const App = () => {
     return (
         <Router>
-            <Container className="container-fluid">
+            <Container>
                 <Header/>
                 {/*
             <Route path="/" exact component={AboutPage} />
@@ -17,9 +18,9 @@ const App = () => {
             <Route path="/projects" component={ProjectsPage} />
             <Route path="/contact" component={ContactPage} />
 */}
+                <Footer/>
             </Container>
         </Router>
     );
 }
-
 export default App;

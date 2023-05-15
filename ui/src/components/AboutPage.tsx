@@ -1,37 +1,35 @@
 import {Card, CardTitle} from "reactstrap";
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 
 const AboutPage = () => {
     const jobTitles: Array<string> = ["Software Developer", "Backend Developer", "Android Developer"];
-
-    const [jobTitle, setJobTitle] = useState("");
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            changeJobTitle();
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
+    const [jobTitleIndex, setJobTitleIndex] = useState(0);
+    const savedJobTitle = useRef<() => void>();
 
     function changeJobTitle() {
-        let index: number = -1;
-
-        if (index < jobTitles.length - 1) {
-            index++;
-        } else {
-            index = 0;
-        }
-
-        setJobTitle(jobTitles[index]);
+        setJobTitleIndex(Math.floor(Math.random() * jobTitles.length));
     }
 
+    useEffect(() => {
+        savedJobTitle.current = changeJobTitle;
+    });
+
+    useEffect(() => {
+        function tick() {
+            savedJobTitle.current?.();
+        }
+
+        let id = setInterval(tick, 500);
+        return () => clearInterval(id);
+    }, []);
+
     return (
-        <Card className="text-center">
+        <Card className="text-center p-5">
             <CardTitle>
                 <h1>
                     Osaremhen Solomon Ukpebor
                 </h1>
-                <h2>{jobTitle}</h2>
+                <h2>{jobTitles[jobTitleIndex]}</h2>
             </CardTitle>
             <h2>Osas-Solo</h2>
             <h3>OS</h3>

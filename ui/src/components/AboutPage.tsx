@@ -1,6 +1,7 @@
 import {Card, CardBody, CardTitle, Col, Row} from "reactstrap";
 import React, {useEffect, useRef, useState} from "react";
 import "../css/devicon.min.css";
+import Technology from "./Technology";
 
 const AboutPage = () => {
     const jobTitles: Array<string> = ["Software Developer", "Backend Developer", "Android Developer"];
@@ -38,22 +39,7 @@ const AboutPage = () => {
             <CardBody className="text-center">
                 <h3>Technologies</h3>
 
-                <Row className="justify-content-center display-4">
-                    <Col className="col-auto me-3">
-                        <i className="devicon-java-plain colored"/>
-                    </Col>
-                    <Col className="col-auto">
-                        Java
-                    </Col>
-                </Row>
-                <Row className="justify-content-center display-4">
-                    <Col className="col-auto me-3">
-                        <i className="devicon-javascript-plain colored"/>
-                    </Col>
-                    <Col className="col-auto">
-                        JavaScript
-                    </Col>
-                </Row>
+                <Technology name={"Java"} fontSize={2} spacing={3} marginBottom={3}/>
             </CardBody>
         </Card>
     );

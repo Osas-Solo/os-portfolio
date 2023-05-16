@@ -18,6 +18,10 @@ const Technology = ({name, fontSize, spacing, marginBottom, marginRight}: ITechn
             icon = "devicon-java-plain";
             break;
 
+        case "Kotlin":
+            icon = "devicon-kotlin-plain";
+            break;
+
         case "JavaScript":
             icon = "devicon-javascript-plain";
             break;
@@ -60,7 +64,7 @@ const Technology = ({name, fontSize, spacing, marginBottom, marginRight}: ITechn
     }
 
     return (
-        <Row className={`justify-content-center fs-${fontSize} mb-${marginBottom} me-${marginRight}`}>
+        <Row className={`fs-${fontSize} mb-${marginBottom} me-${marginRight}`}>
             <Col className={`col-auto me-${spacing}`}>
                 <i className={`${icon} colored`}/>
             </Col>

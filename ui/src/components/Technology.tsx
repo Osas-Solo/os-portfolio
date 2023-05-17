@@ -64,7 +64,7 @@ const Technology = ({name, fontSize, spacing, marginBottom, marginRight}: ITechn
     }
 
     return (
-        <Row className={`fs-${fontSize} mb-${marginBottom} me-${marginRight}`}>
+        <Row className={`text-start fs-${fontSize} mb-${marginBottom} me-${marginRight}`}>
             <Col className={`col-auto me-${spacing}`}>
                 <i className={`${icon} colored`}/>
             </Col>
@@ -73,6 +73,6 @@ const Technology = ({name, fontSize, spacing, marginBottom, marginRight}: ITechn
             </Col>
         </Row>
     );
-}
+};
 
 export default Technology;

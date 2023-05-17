@@ -32,6 +32,6 @@ const Header = () => {
             </Collapse>
         </Navbar>
     );
-}
+};
 
 export default Header;

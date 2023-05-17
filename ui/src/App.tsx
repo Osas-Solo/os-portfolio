@@ -8,6 +8,7 @@ import Header from "./partials/Header";
 import Footer from "./partials/Footer";
 import AboutPage from "./components/AboutPage";
 import ContactPage from "./components/ContactPage";
+import ProjectsPage from "./components/ProjectsPage";
 
 const App = () => {
     return (
@@ -18,7 +19,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" Component={AboutPage}/>
                     <Route path="/about" Component={AboutPage}/>
-                    {/*<Route path="/projects" component={ProjectsPage} />*/}
+                    <Route path="/projects" Component={ProjectsPage} />
                     <Route path="/contact" Component={ContactPage}/>
                 </Routes>
 

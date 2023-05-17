@@ -43,19 +43,21 @@ const AboutPage = () => {
                         <h3>Technologies</h3>
                         <hr className="mb-5"/>
 
-                        <Technology name={"Java"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"Kotlin"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"NodeJS/Express"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"PHP"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"JavaEE"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"Android"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"MySQL"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"ReactJS"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"JavaScript"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"TypeScript"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"Bootstrap"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"MongoDB"} fontSize={2} spacing={3} marginBottom={5}/>
-                        <Technology name={"SQLite"} fontSize={2} spacing={3} marginBottom={5}/>
+                        <Row>
+                            <Technology name={"Java"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"Kotlin"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"NodeJS/Express"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"PHP"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"JavaEE"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"Android"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"MySQL"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"ReactJS"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"JavaScript"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"TypeScript"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"Bootstrap"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"MongoDB"} fontSize={2} spacing={3} marginBottom={5}/>
+                            <Technology name={"SQLite"} fontSize={2} spacing={3} marginBottom={5}/>
+                        </Row>
                     </CardBody>
                 </Col>
             </Row>

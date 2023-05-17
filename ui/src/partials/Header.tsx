@@ -8,11 +8,11 @@ const Header = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar className="navbar-expand-lg">
+        <Navbar className="navbar-expand-lg sticky-top">
             <NavbarToggler onClick={toggle} className="col-2"/>
 
             <Collapse isOpen={isOpen} navbar>
-                <Nav className="col-lg-12 col-10 flex-column flex-md-row fixed-bottom p-3 mb-md-5 justify-content-center sticky-top" navbar>
+                <Nav className="col-lg-12 col-10 flex-column flex-md-row p-3 mb-md-5 justify-content-center" navbar>
                     <NavItem>
                         <Link to="/about" className="nav-link fw-bold">
                             OS About

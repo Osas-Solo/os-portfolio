@@ -21,9 +21,7 @@ const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
         let resizedPhotoHeight: number = originalPhotoHeight / 3;
         let maximumPhotoWidth: number = window.innerWidth;
         let maximumPhotoHeight: number = window.innerHeight;
-
-        console.log("originalPhotoWidth: " + originalPhotoWidth);
-
+        
         return {resizedPhotoWidth, resizedPhotoHeight, maximumPhotoWidth, maximumPhotoHeight};
     }
 

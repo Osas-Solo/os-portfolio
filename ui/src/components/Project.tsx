@@ -2,36 +2,63 @@ import {IProject} from "./IProject";
 import {Button, Card, CardBody, CardTitle, Col, List, Row} from "reactstrap";
 import Technology from "./Technology";
 import Screenshot from "./Screenshot";
+import {useEffect, useState} from "react";
 
 const Project = ({id, title, description, technologies, screenshots, sourceLink, demoLink}: IProject) => {
     let cardBody;
     let descriptionDetails: string[] = description.split("\n");
 
-    const demoColumn = <Col className="col-md-6 col-12 mb-3">
-        <Row className="justify-content-center">
-            <Col className="col-12 my-auto">
-                <Screenshot imageFilePath={`img/${screenshots[0]}`} alternateText={title}/>
+    const [currentScreenshot, setCurrentScreenshot] = useState("" as string);
+
+    useEffect(() => {
+        setCurrentScreenshot(screenshots[0]);
+    }, []);
+
+    const updateScreenshot = (direction: number) => {
+        const currentScreenshotIndex = screenshots.indexOf(currentScreenshot);
+        let newScreenshotIndex = currentScreenshotIndex + direction;
+
+        console.log("Current screenshot index: " + currentScreenshotIndex);
+        console.log("New screenshot index: " + newScreenshotIndex);
+
+        if (newScreenshotIndex < 0) {
+            newScreenshotIndex = screenshots.length - 1;
+        } else if (newScreenshotIndex >= screenshots.length) {
+            newScreenshotIndex = 0;
+        }
+
+        setCurrentScreenshot(screenshots[newScreenshotIndex]);
+    };
+
+    const demoColumn = ({image}: { image: string }) => {
+        return (
+            <Col className="col-md-6 col-12 mb-3">
+                <Row className="justify-content-center">
+                    <Col className="col-12 my-auto">
+                        <Screenshot imageFilePath={`img/${image}`} alternateText={title}/>
+                    </Col>
+                    <Col className="col-auto my-3 px-2">
+                        <Button className="mx-auto" onClick={() => updateScreenshot(-1)}>&lt;</Button>
+                    </Col>
+                    <Col className="col-auto my-3 px-2">
+                        <Button className="mx-auto" onClick={() => updateScreenshot(1)}>&gt;</Button>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center mt-5">
+                    {(sourceLink !== undefined) ? (
+                        <Col className="col-auto">
+                            <a href={sourceLink} target="_blank" className="btn btn-primary">Source</a>
+                        </Col>
+                    ) : (<span/>)}
+                    {(demoLink !== undefined) ? (
+                        <Col className="col-auto">
+                            <a href={demoLink} target="_blank" className="btn btn-primary">Demo</a>
+                        </Col>
+                    ) : (<span/>)}
+                </Row>
             </Col>
-            <Col className="col-auto my-3 px-2">
-                <Button className="mx-auto">&lt;</Button>
-            </Col>
-            <Col className="col-auto my-3 px-2">
-                <Button className="mx-auto">&gt;</Button>
-            </Col>
-        </Row>
-        <Row className="justify-content-center mt-5">
-            {(sourceLink !== undefined) ? (
-                <Col className="col-auto">
-                    <a href={sourceLink} target="_blank" className="btn btn-primary">Source</a>
-                </Col>
-            ) : (<span/>)}
-            {(demoLink !== undefined) ? (
-                <Col className="col-auto">
-                    <a href={demoLink} target="_blank" className="btn btn-primary">Demo</a>
-                </Col>
-            ) : (<span/>)}
-        </Row>
-    </Col>;
+        );
+    };
 
     const descriptionColumn = <Col className="col-md-6 col-12 mb-3">
         <List>
@@ -55,7 +82,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
         cardBody = (
             <CardBody className="p-md-3 py-3">
                 <Row>
-                    {demoColumn}
+                    {demoColumn({image: currentScreenshot})}
                     {descriptionColumn}
                 </Row>
             </CardBody>
@@ -65,7 +92,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
             <CardBody className="p-md-3 py-3">
                 <Row>
                     {descriptionColumn}
-                    {demoColumn}
+                    {demoColumn({image: currentScreenshot})}
                 </Row>
             </CardBody>
         );

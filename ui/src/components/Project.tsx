@@ -12,14 +12,12 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     useEffect(() => {
         setCurrentScreenshot(screenshots[0]);
+
     }, []);
 
-    const updateScreenshot = (direction: number) => {
+    const updateScreenshot = (step: number) => {
         const currentScreenshotIndex = screenshots.indexOf(currentScreenshot);
-        let newScreenshotIndex = currentScreenshotIndex + direction;
-
-        console.log("Current screenshot index: " + currentScreenshotIndex);
-        console.log("New screenshot index: " + newScreenshotIndex);
+        let newScreenshotIndex = currentScreenshotIndex + step;
 
         if (newScreenshotIndex < 0) {
             newScreenshotIndex = screenshots.length - 1;
@@ -32,7 +30,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     const demoColumn = ({image}: { image: string }) => {
         return (
-            <Col className="col-md-6 col-12 mb-3">
+            <Col className="col-auto mb-5 mx-auto">
                 <Row className="justify-content-center">
                     <Col className="col-12 my-auto">
                         <Screenshot imageFilePath={`img/${image}`} alternateText={title}/>
@@ -46,21 +44,22 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
                 </Row>
                 <Row className="justify-content-center mt-5">
                     {(sourceLink !== undefined) ? (
-                        <Col className="col-auto">
+                        <Col className="col-auto mb-3">
                             <a href={sourceLink} target="_blank" className="btn btn-primary">Source</a>
                         </Col>
-                    ) : (<span/>)}
+                    ) : ""}
+
                     {(demoLink !== undefined) ? (
-                        <Col className="col-auto">
+                        <Col className="col-auto mb-3">
                             <a href={demoLink} target="_blank" className="btn btn-primary">Demo</a>
                         </Col>
-                    ) : (<span/>)}
+                    ) : ""}
                 </Row>
             </Col>
         );
     };
 
-    const descriptionColumn = <Col className="col-md-6 col-12 mb-3">
+    const descriptionColumn = <Col className="col-auto mb-5 mx-auto">
         <List>
             {
                 descriptionDetails.map((currentDetail) => <li>{currentDetail}</li>)

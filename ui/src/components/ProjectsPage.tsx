@@ -22,11 +22,11 @@ const ProjectsPage = () => {
     }
 
     return (
-        <Card className="p-3">
+        <Card className="p-md-3 py-3">
             <CardTitle className="text-center">
                 <h1>OS Projects</h1>
 
-                <Card className="w-md-50 mx-auto p-3">
+                <Card className="w-md-50 mx-auto p-md-3 py-3">
                     <CardBody>
                         This page only shows a few of my previous projects. If you'd like to find more:
 

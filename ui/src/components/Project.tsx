@@ -1,21 +1,22 @@
 import {IProject} from "./IProject";
 import {Button, Card, CardBody, CardTitle, Col, List, Row} from "reactstrap";
 import Technology from "./Technology";
+import Screenshot from "./Screenshot";
 
 const Project = ({id, title, description, technologies, screenshots, sourceLink, demoLink}: IProject) => {
     let cardBody;
     let descriptionDetails: string[] = description.split("\n");
 
     const demoColumn = <Col className="col-md-6 col-12 mb-3">
-        <Row>
-            <Col className="col-1 my-auto">
-                <Button>&lt;</Button>
+        <Row className="justify-content-center">
+            <Col className="col-12 my-auto">
+                <Screenshot imageFilePath={`img/${screenshots[0]}`} alternateText={title}/>
             </Col>
-            <Col className="col-10 my-auto">
-                <img src={`img/${screenshots[0]}`} alt={title} className="img-thumbnail w-auto h-auto"/>
+            <Col className="col-auto my-3 px-2">
+                <Button className="mx-auto">&lt;</Button>
             </Col>
-            <Col className="col-1 my-auto">
-                <Button>&gt;</Button>
+            <Col className="col-auto my-3 px-2">
+                <Button className="mx-auto">&gt;</Button>
             </Col>
         </Row>
         <Row className="justify-content-center mt-5">
@@ -52,7 +53,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     if (id % 2 === 0) {
         cardBody = (
-            <CardBody className="p-3">
+            <CardBody className="p-md-3 py-3">
                 <Row>
                     {demoColumn}
                     {descriptionColumn}
@@ -61,7 +62,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
         );
     } else {
         cardBody = (
-            <CardBody className="p-3">
+            <CardBody className="p-md-3 py-3">
                 <Row>
                     {descriptionColumn}
                     {demoColumn}
@@ -71,7 +72,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
     }
 
     return (
-        <Card className="p-3 mb-5">
+        <Card className="p-md-3 py-3 mb-5">
             <CardTitle className="mb-3">
                 <h3 className="text-center">{title}</h3>
             </CardTitle>

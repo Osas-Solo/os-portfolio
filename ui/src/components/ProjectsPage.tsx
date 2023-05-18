@@ -1,11 +1,26 @@
 import {Card, CardBody, CardTitle, Col, Row} from "reactstrap";
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "../css/devicon.min.css";
 import "../css/fontsawesome/css/fontawesome.min.css";
 import "../css/fontsawesome/css/solid.min.css";
 import "../css/fontsawesome/css/brands.min.css";
+import {IProject} from "./IProject";
+import axios from "axios";
+import Project from "./Project";
 
 const ProjectsPage = () => {
+    const [projects, setProjects] = useState([] as IProject[]);
+
+    useEffect(() => {
+        getProjects();
+    }, [projects]);
+
+    const getProjects = async () => {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/projects/`);
+
+        setProjects(response.data.data);
+    }
+
     return (
         <Card className="p-3">
             <CardTitle className="text-center">
@@ -45,7 +60,17 @@ const ProjectsPage = () => {
                 </Card>
             </CardTitle>
 
-            <CardBody className="mx-auto w-auto">
+            <CardBody className="my-5 mx-auto w-auto">
+                <h1 className="text-center mb-5">Selected Projects</h1>
+
+                {
+                    projects.map((currentProject: IProject) =>
+                        <Project key={currentProject.id} id={currentProject.id} title={currentProject.title}
+                                 description={currentProject.description} technologies={currentProject.technologies}
+                                 screenshots={currentProject.screenshots} sourceLink={currentProject.sourceLink}
+                                 demoLink={currentProject.demoLink}/>
+                    )
+                }
 
             </CardBody>
 

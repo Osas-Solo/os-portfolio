@@ -7,6 +7,7 @@
     --alternate-colour: #2809ef;
     --main-text-colour: #ffffff;
     --main-background-colour: #000000;
+    --transparent-background: rgba(0, 0, 0, 90%);
     --dark-grey: #222222;
 }
 
@@ -15,7 +16,7 @@ body {
     background-image: url("../img/background.jpg");
 }
 
-.navbar, .page-container, .card, footer {
+.navbar, .page-container, footer {
     background-color: var(--main-background-colour) !important;
     color: var(--main-text-colour);
 }
@@ -24,24 +25,30 @@ body {
     border-radius: 10px 15px;
 }
 
+.navbar {
+    margin-bottom: 20px;
+}
+
 .navbar-toggler {
     background-color: var(--main-colour);
+    
+}
+
+.nav-item a, .nav-item a:hover, .nav-item a:visited, .nav-item a:focus {
+    color: var(--main-colour);
+}
+
+.nav-link:hover {
+    background-color: var(--main-colour) !important;
+    color: var(--main-text-colour) !important;
 }
 
 .card {
     border-radius: 30px !important;
 }
 
-.page-container, footer {
-    opacity: 0.9;
-}
-
-.navbar {
-    margin-bottom: 20px;
-}
-
-.nav-item a, .nav-item a:hover, .nav-item a:visited, .nav-item a:focus {
-    color: var(--main-colour);
+.page-container, .page-container .card, footer {
+    background-color: var(--transparent-background) !important;
 }
 
 a, a:hover, a:visited, a:active, a:focus {
@@ -77,14 +84,8 @@ a, a:hover, a:visited, a:active, a:focus {
     right: 0;
 }
 
-#technology-section {
-    height: 70vh;
-    overflow-y: scroll;
-}
-
 .technology, .contact {
     background-color: var(--dark-grey);
-    opacity: 1;
 }
 
 button, .btn, .btn-primary,
@@ -108,18 +109,23 @@ button:active, .btn:active, .btn-primary:active {
     text-decoration: none;
 }
 
+a, a:hover, a:visited, a:active, a:focus {
+    color: var(--main-colour);
+    text-decoration: none !important;
+}
+
 .project-title {
     color: var(--main-colour);
 }
 
 .screenshot-frame {
-    background-color: var(--main-background-colour);
     max-height: fit-content;
     margin-bottom: 10px;
 }
 
-.screenshot-frame img {
-
+.screenshot {
+    max-width: 70vw !important;
+    height: auto;
 }
 
 footer {
@@ -136,4 +142,11 @@ footer {
     background-color: var(--main-text-colour) !important;
     width: 3px !important;
     opacity: 1 !important;
+}
+
+@media (min-width: 768px) {
+    #technology-section {
+        height: 70vh;
+        overflow-y: scroll;
+    }
 }

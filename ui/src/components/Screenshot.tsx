@@ -52,8 +52,8 @@ const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
 
     return (
         <figure className="screenshot-frame">
-            <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto mb-auto"
-                 style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
+            <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto mb-auto
+                screenshot" style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
         </figure>
     );
 };

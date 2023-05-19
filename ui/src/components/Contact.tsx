@@ -9,11 +9,11 @@ interface IContact {
 
 const Contact = ({icon, link, detail} : IContact) => {
     return (
-        <Row className="fs-2 mb-5 contact py-1">
-            <Col className="col-md-1 col-12">
+        <Row className="fs-2 w-auto mb-5 mx-auto contact py-1">
+            <Col className="col-auto">
                 <i className={icon}/>
             </Col>
-            <Col className="col-md-11 col-12 text-start ps-md-5">
+            <Col className="col-auto">
                 <a href={link} target="_blank">{detail}</a>
             </Col>
         </Row>

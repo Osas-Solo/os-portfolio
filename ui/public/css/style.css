@@ -24,6 +24,10 @@ body {
     border-radius: 10px 15px;
 }
 
+.navbar-toggler {
+    background-color: var(--main-colour);
+}
+
 .card {
     border-radius: 30px !important;
 }
@@ -106,45 +110,26 @@ button:active, .btn:active, .btn-primary:active {
 
 .project-title {
     color: var(--main-colour);
-    position: relative;
-    padding: 10px;
-}
-
-.project-title:before{
-    content:" ";
-    height: 2px;
-    width: 35%;
-    background-color: var(--main-text-colour);
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-
-.project-title:after{
-    content:" ";
-    height: 2px;
-    width: 35%;
-    background-color: var(--main-text-colour);
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0;
 }
 
 .screenshot-frame {
     background-color: var(--main-background-colour);
-    opacity: 1 !important;
     max-height: fit-content;
     margin-bottom: 10px;
 }
 
 .screenshot-frame img {
-    opacity: 1 !important;
+
 }
 
 footer {
     margin-top: 20px;
+}
+
+.card hr {
+    background-color: var(--main-text-colour) !important;
+    height: 3px;
+    opacity: 1 !important;
 }
 
 .vr {

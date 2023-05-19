@@ -111,11 +111,13 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     return (
         <Card className="p-md-3 py-3 mb-5">
+            <hr/>
             <CardTitle className="mb-3 project-title">
                 <h2 className="text-center">{title}</h2>
             </CardTitle>
 
             {cardBody}
+            <hr/>
         </Card>
     );
 };

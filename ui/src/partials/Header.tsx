@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <Navbar className="navbar-expand-lg sticky-top">
-            <NavbarToggler onClick={toggle} className="col-2"/>
+            <NavbarToggler onClick={toggle} className="col-2" style={{color: "white"}}/>
 
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="col-lg-12 col-10 flex-column flex-md-row justify-content-center" navbar>

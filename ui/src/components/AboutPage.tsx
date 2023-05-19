@@ -27,14 +27,16 @@ const AboutPage = () => {
 
     return (
         <Card className="text-center p-5">
+            <CardTitle className="mb-5">
+                <h1>About Osas-Solo</h1>
+            </CardTitle>
+
             <Row>
-                <Col className="col-md-6 mb-5 p-3">
-                    <CardTitle className="mb-5">
-                        <h1>
-                            Osaremhen Solomon Ukpebor
-                        </h1>
-                        <h2>{jobTitles[jobTitleIndex]}</h2>
-                    </CardTitle>
+                <Col className="col-md-6 mb-5 p-3 my-md-auto">
+                    <h1>
+                        Osaremhen Solomon Ukpebor
+                    </h1>
+                    <h2>{jobTitles[jobTitleIndex]}</h2>
                     <h2>Osas-Solo</h2>
                     <h3>OS</h3>
                 </Col>

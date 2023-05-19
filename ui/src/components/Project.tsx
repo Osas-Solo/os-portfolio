@@ -45,13 +45,19 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
                 <Row className="justify-content-center mt-5">
                     {(sourceLink !== undefined) ? (
                         <Col className="col-auto mb-3">
-                            <a href={sourceLink} target="_blank" className="btn btn-primary">Source</a>
+                            <a href={sourceLink} target="_blank" className="btn btn-primary">
+                                <i className="devicon-github-plain colored me-2"/>
+                                Source
+                            </a>
                         </Col>
                     ) : ""}
 
                     {(demoLink !== undefined) ? (
                         <Col className="col-auto mb-3">
-                            <a href={demoLink} target="_blank" className="btn btn-primary">Demo</a>
+                            <a href={demoLink} target="_blank" className="btn btn-primary">
+                                <i className="fas fa-play me-2"/>
+                                Demo
+                            </a>
                         </Col>
                     ) : ""}
                 </Row>
@@ -62,7 +68,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
     const descriptionColumn = <Col className="col-auto mb-5 mx-auto">
         <List>
             {
-                descriptionDetails.map((currentDetail) => <li>{currentDetail}</li>)
+                descriptionDetails.map((currentDetail) => <li className="mb-2">- {currentDetail}</li>)
             }
         </List>
 

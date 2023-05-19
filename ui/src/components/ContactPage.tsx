@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Card, CardBody, CardTitle} from "reactstrap";
 import "../css/devicon.min.css";
 import "../css/fontsawesome/css/fontawesome.min.css";
@@ -7,6 +7,10 @@ import "../css/fontsawesome/css/brands.min.css";
 import Contact from "./Contact";
 
 const ContactPage = () => {
+    useEffect(() => {
+        document.title = "Contact Osas-Solo | OS Portfolio";
+    }, []);
+    
     return (
         <Card className="p-3">
             <CardTitle className="text-center">

@@ -9,6 +9,10 @@ import axios from "axios";
 import Project from "./Project";
 
 const ProjectsPage = () => {
+    useEffect(() => {
+        document.title = "Osas-Solo's Projects | OS Portfolio";
+    }, []);
+
     const [projects, setProjects] = useState([] as IProject[]);
 
     useEffect(() => {

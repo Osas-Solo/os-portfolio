@@ -12,7 +12,7 @@ const ContactPage = () => {
     }, []);
     
     return (
-        <Card className="p-3">
+        <Card className="page-container p-3">
             <CardTitle className="text-center">
                 <h1>Contact Osas-Solo</h1>
             </CardTitle>
@@ -20,7 +20,7 @@ const ContactPage = () => {
             <CardBody className="mx-auto w-auto">
                 <Contact icon={"fa fa-mail-bulk"} link={"mailto:osas.solo25@gmail.com"}
                          detail={"Osas.Solo25@gmail.com"}/>
-                <Contact icon={"devicon-github-plain colored"} link={"https://github.com/Osas-Solo"} detail={"GitHub"}/>
+                <Contact icon={"devicon-github-plain"} link={"https://github.com/Osas-Solo"} detail={"GitHub"}/>
                 <Contact icon={"devicon-linkedin-plain colored"} link={"https://www.linkedin.com/in/Osas-Solo/"}
                          detail={"LinkedIn"}/>
                 <Contact icon={"devicon-twitter-plain colored"} link={"https://twitter.com/OsasSolo"}

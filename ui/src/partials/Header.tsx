@@ -12,7 +12,7 @@ const Header = () => {
             <NavbarToggler onClick={toggle} className="col-2"/>
 
             <Collapse isOpen={isOpen} navbar>
-                <Nav className="col-lg-12 col-10 flex-column flex-md-row p-3 mb-md-5 justify-content-center" navbar>
+                <Nav className="col-lg-12 col-10 flex-column flex-md-row justify-content-center" navbar>
                     <NavItem>
                         <Link to="/about" className="nav-link fw-bold">
                             OS About

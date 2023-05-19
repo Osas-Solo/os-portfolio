@@ -36,25 +36,31 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
                         <Screenshot imageFilePath={`img/${image}`} alternateText={title}/>
                     </Col>
                     <Col className="col-auto my-3 px-2">
-                        <Button className="mx-auto" onClick={() => updateScreenshot(-1)}>&lt;</Button>
+                        <Button className="mx-auto" onClick={() => updateScreenshot(-1)}
+                                title={`Previous ${title} Demo Photo`}>
+                            &lt;
+                        </Button>
                     </Col>
                     <Col className="col-auto my-3 px-2">
-                        <Button className="mx-auto" onClick={() => updateScreenshot(1)}>&gt;</Button>
+                        <Button className="mx-auto" onClick={() => updateScreenshot(1)}
+                                title={`Next ${title} Demo Photo`}>
+                            &gt;
+                        </Button>
                     </Col>
                 </Row>
                 <Row className="justify-content-center mt-5">
                     {(sourceLink !== undefined) ? (
-                        <Col className="col-auto mb-3">
-                            <a href={sourceLink} target="_blank" className="btn btn-primary">
-                                <i className="devicon-github-plain colored me-2"/>
+                        <Col className="col-auto mb-3 me-md-2 btn btn-primary">
+                            <a href={sourceLink} target="_blank">
+                                <i className="devicon-github-plain me-2"/>
                                 Source
                             </a>
                         </Col>
                     ) : ""}
 
                     {(demoLink !== undefined) ? (
-                        <Col className="col-auto mb-3">
-                            <a href={demoLink} target="_blank" className="btn btn-primary">
+                        <Col className="col-auto mb-3 ms-md-2 btn btn-primary">
+                            <a href={demoLink} target="_blank">
                                 <i className="fas fa-play me-2"/>
                                 Demo
                             </a>
@@ -105,8 +111,8 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     return (
         <Card className="p-md-3 py-3 mb-5">
-            <CardTitle className="mb-3">
-                <h3 className="text-center">{title}</h3>
+            <CardTitle className="mb-3 project-title">
+                <h2 className="text-center">{title}</h2>
             </CardTitle>
 
             {cardBody}

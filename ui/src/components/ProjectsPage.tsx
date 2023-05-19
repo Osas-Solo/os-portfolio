@@ -26,7 +26,7 @@ const ProjectsPage = () => {
     }
 
     return (
-        <Card className="p-md-3 py-3">
+        <Card className="page-container p-md-3 py-3">
             <CardTitle className="text-center">
                 <h1>OS Projects</h1>
 
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
                                 <a href="https://github.com/Osas-Solo" target="_blank">
                                     <Row>
                                         <Col className="col-auto">
-                                            <i className="devicon-github-plain colored"/>
+                                            <i className="devicon-github-plain"/>
                                         </Col>
                                         <Col className="col-auto">
                                             GitHub

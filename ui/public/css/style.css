@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial sans-serif;
+    --main-colour: #4169e1;
+    --alternate-colour: #2809ef;
+    --main-text-colour: #ffffff;
+    --main-background-colour: #000000;
+    --dark-grey: #222222;
+}
+
+body {
+    background-color: var(--main-background-colour);
+    background-image: url("../img/background.jpg");
+}
+
+.navbar, .page-container, .card, footer {
+    background-color: var(--main-background-colour) !important;
+    color: var(--main-text-colour);
+}
+
+.navbar, footer {
+    border-radius: 10px 15px;
+}
+
+.card {
+    border-radius: 30px !important;
+}
+
+.page-container, footer {
+    opacity: 0.9;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-item a, .nav-item a:hover, .nav-item a:visited, .nav-item a:focus {
+    color: var(--main-colour);
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    color: var(--main-colour);
+    text-decoration: none;
+}
+
+#job-title {
+    color: var(--main-colour);
+    position: relative;
+    padding: 10px;
+}
+
+#job-title:before{
+    content:" ";
+    height: 2px;
+    width: 15%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+#job-title:after{
+    content:" ";
+    height: 2px;
+    width: 15%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+#technology-section {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.technology, .contact {
+    background-color: var(--dark-grey);
+    opacity: 1;
+}
+
+button, .btn, .btn-primary,
+button:hover, button:focus, button:active,
+.btn:hover, .btn:focus, .btn:active,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    padding: 5px 20px;
+    border: transparent;
+    border-radius: 20px !important;
+    background-color: var(--main-colour) !important;
+    color: var(--main-text-colour);
+    font-weight: bold !important;
+}
+
+button:active, .btn:active, .btn-primary:active {
+    background-color: var(--alternate-colour) !important;
+}
+
+.btn a, .btn a:hover, .btn a:visited, .btn a:active, .btn a:focus {
+    color: var(--main-text-colour);
+    text-decoration: none;
+}
+
+.project-title {
+    color: var(--main-colour);
+    position: relative;
+    padding: 10px;
+}
+
+.project-title:before{
+    content:" ";
+    height: 2px;
+    width: 35%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.project-title:after{
+    content:" ";
+    height: 2px;
+    width: 35%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.screenshot-frame {
+    background-color: var(--main-background-colour);
+    opacity: 1 !important;
+    max-height: fit-content;
+    margin-bottom: 10px;
+}
+
+.screenshot-frame img {
+    opacity: 1 !important;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.vr {
+    background-color: var(--main-text-colour) !important;
+    width: 3px !important;
+    opacity: 1 !important;
+}

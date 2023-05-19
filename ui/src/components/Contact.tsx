@@ -9,7 +9,7 @@ interface IContact {
 
 const Contact = ({icon, link, detail} : IContact) => {
     return (
-        <Row className="fs-4 mb-5">
+        <Row className="fs-2 mb-5 contact py-1">
             <Col className="col-md-1 col-12">
                 <i className={icon}/>
             </Col>

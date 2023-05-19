@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {Row} from "reactstrap";
 
 interface IScreenshot {
     imageFilePath: string;
@@ -50,8 +51,10 @@ const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
     };
 
     return (
-        <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto"
-             style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
+        <figure className="screenshot-frame">
+            <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto mb-auto"
+                 style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
+        </figure>
     );
 };
 

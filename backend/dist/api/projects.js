@@ -38,7 +38,7 @@ exports.getProjects = (request, response) => __awaiter(void 0, void 0, void 0, f
             message: "OK",
             data: projects,
         };
-        console.log(successJSON);
+        console.table(successJSON);
         response.status(200).json(successJSON);
     }
     catch (e) {

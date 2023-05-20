@@ -1,7 +1,7 @@
 {
   "name": "os-portfolio",
   "version": "1.0.0",
-  "description": "OS Portfolio",
+  "description": "OS Portfolio API",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",

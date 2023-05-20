@@ -47,7 +47,7 @@ exports.getProjects = async (request: Request, response: Response) => {
             data: projects,
         };
 
-        console.log(successJSON);
+        console.table(successJSON);
         response.status(200).json(successJSON);
     } catch (e) {
         console.log(e);

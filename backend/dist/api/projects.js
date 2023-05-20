@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = require("mongoose");
-require("../config/database");
+const database = require("../config/database");
 const ProjectSchema = new mongoose_1.Schema({
     id: { type: Number, required: true },
     title: { type: String, required: true },
@@ -21,6 +21,7 @@ const ProjectSchema = new mongoose_1.Schema({
     demoLink: String,
 });
 exports.getProjects = (request, response) => __awaiter(void 0, void 0, void 0, function* () {
+    yield database.connect(process.env.DATABASE_URL);
     const Project = (0, mongoose_1.model)("Project", ProjectSchema, "projects");
     try {
         const projects = yield Project.find({});
@@ -38,7 +39,7 @@ exports.getProjects = (request, response) => __awaiter(void 0, void 0, void 0, f
             message: "OK",
             data: projects,
         };
-        console.table(successJSON);
+        console.log(successJSON);
         response.status(200).json(successJSON);
     }
     catch (e) {

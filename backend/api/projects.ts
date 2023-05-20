@@ -1,7 +1,7 @@
 import {Request, Response} from "express";
 import {Document, model, Model, Schema} from "mongoose";
 
-require("../config/database");
+const database = require("../config/database");
 
 interface IProject extends Document {
     id: number,
@@ -24,6 +24,7 @@ const ProjectSchema = new Schema<IProject>({
 });
 
 exports.getProjects = async (request: Request, response: Response) => {
+    await database.connect(process.env.DATABASE_URL);
     const Project: Model<IProject> = model("Project", ProjectSchema, "projects");
 
     try {
@@ -47,7 +48,7 @@ exports.getProjects = async (request: Request, response: Response) => {
             data: projects,
         };
 
-        console.table(successJSON);
+        console.log(successJSON);
         response.status(200).json(successJSON);
     } catch (e) {
         console.log(e);

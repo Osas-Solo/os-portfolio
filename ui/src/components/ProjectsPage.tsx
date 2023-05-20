@@ -48,7 +48,7 @@ const ProjectsPage = () => {
                                 </a>
                             </Col>
                             <Col className="col-auto my-auto mb-3 ms-md-3 mx-auto btn btn-primary">
-                                <a href="/about">
+                                <a href="/contact">
                                     <Row className="justify-content-center">
                                         <Col className="col-auto">
                                             <i className="fab fa-telegram"/>

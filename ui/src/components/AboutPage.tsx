@@ -4,6 +4,10 @@ import "../css/devicon.min.css";
 import Technology from "./Technology";
 
 const AboutPage = () => {
+    useEffect(() => {
+        document.title = "Backend/Android Developer | Osas-Solo";
+    }, []);
+
     const jobTitles: Array<string> = ["Software Developer", "Backend Developer", "Android Developer"];
     const [jobTitleIndex, setJobTitleIndex] = useState(0);
     const savedJobTitle = useRef<() => void>();

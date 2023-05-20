@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Row} from "reactstrap";
+import {Button, Modal, ModalBody, ModalFooter, ModalHeader} from "reactstrap";
 
 interface IScreenshot {
     imageFilePath: string;
@@ -15,10 +15,13 @@ interface IPhotoConstraints {
 
 const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
     const [photoConstraints, setPhotoConstraints] = useState({} as IPhotoConstraints);
+    const [screenshotModal, setScreenshotModal] = useState(false as boolean);
 
     useEffect(() => {
         computeScreenshotConstraints(imageFilePath);
     }, []);
+
+    const displayScreenshotInFull = () => setScreenshotModal(!screenshotModal);
 
     const computeScreenshotConstraints = (imageSource: string) => {
         const photo = new Image();
@@ -53,7 +56,20 @@ const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
     return (
         <figure className="screenshot-frame">
             <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto mb-auto
-                screenshot" style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
+                screenshot" style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}
+                 onClick={displayScreenshotInFull}/>
+
+            <Modal isOpen={screenshotModal} toggle={displayScreenshotInFull}>
+                <ModalHeader toggle={displayScreenshotInFull}>{alternateText}</ModalHeader>
+                <ModalBody>
+                    <img className="img-fluid d-block mx-auto w-auto h-auto" src={imageFilePath} alt={alternateText}/>
+                </ModalBody>
+                <ModalFooter>
+                    <Button color="secondary" onClick={displayScreenshotInFull}>
+                        Close
+                    </Button>
+                </ModalFooter>
+            </Modal>
         </figure>
     );
 };

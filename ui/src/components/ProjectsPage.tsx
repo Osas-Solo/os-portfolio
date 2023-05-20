@@ -10,7 +10,7 @@ import Project from "./Project";
 
 const ProjectsPage = () => {
     useEffect(() => {
-        document.title = "Osas-Solo's Projects | OS Portfolio";
+        document.title = "Backend/Android Developer | Osas-Solo's Projects";
     }, []);
 
     const [projects, setProjects] = useState([] as IProject[]);

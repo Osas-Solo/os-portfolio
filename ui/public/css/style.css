@@ -126,6 +126,7 @@ a, a:hover, a:visited, a:active, a:focus {
 .screenshot {
     max-width: 70vw !important;
     height: auto;
+    cursor: pointer;
 }
 
 footer {
@@ -142,6 +143,17 @@ footer {
     background-color: var(--main-text-colour) !important;
     width: 3px !important;
     opacity: 1 !important;
+}
+
+.modal-dialog {
+    max-width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+.modal-body {
+    padding: 0 !important;
+    overflow: auto;
 }
 
 @media (min-width: 768px) {

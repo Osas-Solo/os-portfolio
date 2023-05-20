@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 const ContactPage = () => {
     useEffect(() => {
-        document.title = "Contact Osas-Solo | OS Portfolio";
+        document.title = "Backend/Android Developer | Contact Osas-Solo";
     }, []);
 
     return (

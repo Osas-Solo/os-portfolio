@@ -67,15 +67,19 @@ const ProjectsPage = () => {
             <CardBody className="my-5 mx-auto w-auto">
                 <h1 className="text-center mb-5">Selected Projects</h1>
 
-                {
-                    projects.map((currentProject: IProject) =>
-                        <Project key={currentProject.id} id={currentProject.id} title={currentProject.title}
-                                 description={currentProject.description} technologies={currentProject.technologies}
-                                 screenshots={currentProject.screenshots} sourceLink={currentProject.sourceLink}
-                                 demoLink={currentProject.demoLink}/>
-                    )
-                }
-
+                <section id="gallery" className="gallery">
+                    <div className="container-fluid">
+                        {
+                            projects.map((currentProject: IProject) =>
+                                <Project key={currentProject.id} id={currentProject.id} title={currentProject.title}
+                                         description={currentProject.description}
+                                         technologies={currentProject.technologies}
+                                         screenshots={currentProject.screenshots} sourceLink={currentProject.sourceLink}
+                                         demoLink={currentProject.demoLink}/>
+                            )
+                        }
+                    </div>
+                </section>
             </CardBody>
 
         </Card>

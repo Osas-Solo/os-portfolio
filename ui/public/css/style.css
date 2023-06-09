@@ -1,155 +1,121 @@
-/**
-* Template Name: PhotoFolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
-:root {
-    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --primary-font: "Verdana", sans-serif;
-    --secondary-font: "Cardo", sans-serif;
-}
-
-/* Colors */
-:root {
-    --default-colour: #fafafa;
-    --primary-colour: #27a776;
-    --secondary-colour: #161718;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial sans-serif;
+    --main-colour: #4169e1;
+    --alternate-colour: #2809ef;
+    --main-text-colour: #ffffff;
+    --main-background-colour: #000000;
+    --transparent-background: rgba(0, 0, 0, 90%);
     --dark-grey: #222222;
 }
 
-/* Smooth scroll behavior */
-:root {
-    scroll-behavior: smooth;
-}
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-    font-family: var(--primary-font);
-    color: var(--default-colour) !important;
-    background-color: #000000 !important;
+    background-color: var(--main-background-colour);
+    background-image: url("../img/background.jpg");
 }
 
-a {
-    color: var(--primary-colour) !important;
-    text-decoration: none !important;
+.navbar, .page-container, footer {
+    background-color: var(--main-background-colour) !important;
+    color: var(--main-text-colour);
 }
 
-a:hover {
-    color: #32cf93 !important;
-    text-decoration: none !important;
+.navbar, footer {
+    border-radius: 10px 15px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--primary-font);
-}
-
-.header {
-    transition: all 0.5s;
-    z-index: 997;
-    background-color: #000000;
+.navbar {
+    margin-bottom: 20px;
 }
 
 .navbar-toggler {
-    background-color: var(--primary-colour) !important;
+    background-color: var(--main-colour);
+
 }
 
-@media (min-width: 1280px) {
-    .navbar {
-        padding: 0;
-    }
-
-    .navbar ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
-        align-items: center;
-    }
-
-    .navbar li {
-        position: relative;
-    }
-
-    .navbar a,
-    .navbar a:focus {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 0 10px 30px;
-        font-family: var(--primary-font);
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 13px;
-        font-weight: 400;
-        color: var(--primary-colour);
-        white-space: nowrap;
-        transition: 0.3s;
-    }
-
-    .navbar a i,
-    .navbar a:focus i {
-        font-size: 12px;
-        line-height: 0;
-        margin-left: 5px;
-    }
-
-    .navbar a:hover,
-    .navbar .active,
-    .navbar .active:focus,
-    .navbar li:hover > a {
-        color: #ffffff;
-    }
+.nav-item a, .nav-item a:hover, .nav-item a:visited, .nav-item a:focus {
+    color: var(--main-colour);
 }
 
-@media (max-width: 1279px) {
-    .navbar a,
-    .navbar a:focus {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 20px;
-        font-family: var(--primary-font);
-        font-size: 13px;
-        text-transform: uppercase;
-        font-weight: 400;
-        color: var(--primary-colour);
-        letter-spacing: 1px;
-        white-space: nowrap;
-        transition: 0.3s;
-    }
-
-    .navbar a i,
-    .navbar a:focus i {
-        font-size: 12px;
-        line-height: 0;
-        margin-left: 5px;
-    }
-
-    .navbar a:hover,
-    .navbar .active,
-    .navbar .active:focus,
-    .navbar li:hover > a {
-        color: #ffffff;
-    }
+.nav-link:hover {
+    background-color: var(--main-colour) !important;
+    color: var(--main-text-colour) !important;
 }
 
-.card-title h2, .card-body h2 {
-    color: var(--primary-colour) !important;
+.card {
+    border-radius: 30px !important;
+}
+
+.page-container, .page-container .card, footer {
+    background-color: var(--transparent-background) !important;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    color: var(--main-colour);
+    text-decoration: none;
+}
+
+#job-title {
+    color: var(--main-colour);
+    position: relative;
+    padding: 10px;
+}
+
+#job-title:before {
+    content: " ";
+    height: 2px;
+    width: 15%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+#job-title:after {
+    content: " ";
+    height: 2px;
+    width: 15%;
+    background-color: var(--main-text-colour);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.technology, .contact {
+    background-color: var(--dark-grey);
+}
+
+button, .btn, .btn-primary,
+button:hover, button:focus, button:active,
+.btn:hover, .btn:focus, .btn:active,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    padding: 5px 20px;
+    border: transparent;
+    border-radius: 20px !important;
+    background-color: var(--main-colour) !important;
+    color: var(--main-text-colour);
+    font-weight: bold !important;
+}
+
+button:active, .btn:active, .btn-primary:active {
+    background-color: var(--alternate-colour) !important;
+}
+
+.btn a, .btn a:hover, .btn a:visited, .btn a:active, .btn a:focus {
+    color: var(--main-text-colour);
+    text-decoration: none;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    color: var(--main-colour);
+    text-decoration: none !important;
+}
+
+.project-title {
+    color: var(--main-colour);
 }
 
 .screenshot-frame {
@@ -166,92 +132,31 @@ h6 {
     cursor: pointer;
 }
 
-.gallery {
-    margin-top: 40px;
+footer {
+    margin-top: 20px;
 }
 
-.gallery .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
+.card hr {
+    background-color: var(--main-text-colour) !important;
+    height: 3px;
+    opacity: 1 !important;
 }
 
-.gallery .gallery-item img {
-    transition: 0.3s;
+.vr {
+    background-color: var(--main-text-colour) !important;
+    width: 3px !important;
+    opacity: 1 !important;
 }
 
-.gallery .gallery-links {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: all ease-in-out 0.3s;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 3;
+.modal-dialog {
+    max-width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
 }
 
-.gallery .gallery-links .preview-link,
-.gallery .gallery-links .details-link {
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.5);
-    transition: 0.3s;
-    line-height: 1.2;
-    margin: 30px 8px 0 8px;
-}
-
-.gallery .gallery-links .preview-link:hover,
-.gallery .gallery-links .details-link:hover {
-    color: #ffffff;
-}
-
-.gallery .gallery-links .details-link {
-    font-size: 30px;
-    line-height: 0;
-}
-
-.gallery .gallery-item:hover .gallery-links {
-    opacity: 1;
-}
-
-.gallery .gallery-item:hover .preview-link,
-.gallery .gallery-item:hover .details-link {
-    margin-top: 0;
-}
-
-.gallery .gallery-item:hover img {
-    transform: scale(1.1);
-}
-
-button, .btn {
-    background: var(--primary-colour) !important;
-    border: 0;
-    padding: 10px 35px;
-    color: #ffffff !important;
-    transition: 0.4s;
-    border-radius: 4px;
-    font-weight: bold !important;
-}
-
-button:hover, .btn:hover {
-    background: rgba(39, 167, 118, 0.8) !important;
-}
-
-.btn a {
-    color: #ffffff !important;
-}
-
-.card {
-    background-color: #000000 !important;
-}
-
-.technology, .contact {
-    background-color: var(--dark-grey);
-}
-
-.footer {
-    margin-top: 30px;
-    padding: 30px 0;
-    font-size: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+.modal-body {
+    padding: 0 !important;
+    overflow: auto;
 }
 
 @media (min-width: 768px) {

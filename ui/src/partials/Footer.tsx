@@ -3,7 +3,7 @@ import {Col, Nav, NavItem, NavLink, Row} from "reactstrap";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="p-3">
             <Row>
                 <Col className="col-auto text-start p-3">
                     &copy; {new Date().getFullYear()} Osaremhen Solomon Ukpebor

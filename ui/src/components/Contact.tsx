@@ -7,9 +7,9 @@ interface IContact {
     detail: string;
 }
 
-const Contact = ({icon, link, detail}: IContact) => {
+const Contact = ({icon, link, detail} : IContact) => {
     return (
-        <Row className="fs-2 w-auto mb-3 mx-md-2 mx-auto contact py-1">
+        <Row className="fs-2 w-auto mb-5 mx-auto contact py-1">
             <Col className="col-auto">
                 <i className={icon}/>
             </Col>

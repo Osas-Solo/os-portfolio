@@ -17,8 +17,8 @@ const ContactPage = () => {
                 <h1>Contact Osas-Solo</h1>
             </CardTitle>
 
-            <CardBody className="text-center my-md-5">
-                <Row className="flex-md-row justify-content-center flex-column">
+            <CardBody className="text-center">
+                <Row className="flex-column">
                     <Contact icon={"fa fa-mail-bulk"} link={"mailto:osas.solo25@gmail.com"}
                              detail={"Osas.Solo25@gmail.com"}/>
                     <Contact icon={"devicon-github-plain"} link={"https://github.com/Osas-Solo"} detail={"GitHub"}/>

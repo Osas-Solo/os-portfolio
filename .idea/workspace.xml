@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated style">
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Result.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Result.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Signup.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Signup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Subject.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Subject.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Subject_Selection.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Subject_Selection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Test.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Test_Setup.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Test_Setup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Order.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Order.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Product.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Store.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Intro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Confirmation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Confirmation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Recognition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Recognition.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Before_Recognition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Before_Recognition.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Initial.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Initial.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Payment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Payment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Selection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Selection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Signup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Signup.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Offers.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Offers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Requests.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Requests.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Placement_Offer.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Placement_Offer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Post_Placement.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Post_Placement.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Placement_Offers.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Placement_Offers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Requests.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Requests.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Dashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Dashboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Invest.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Invest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Plans.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Plans.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_History.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_History.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_Repayment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_Repayment.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ui" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2PeAKJdSSGqDsyznHhQsJaJyKZf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
+    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "16.15.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.28",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/JavaScript/os-portfolio/ui/public/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "ts.external.directory.path": "C:\\JavaScript\\os-portfolio\\ui\\node_modules\\typescript\\lib",
+    "ts.rename.search.for.js.occurrences": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaScript\os-portfolio\ui\src\css" />
+      <recent name="C:\JavaScript\os-portfolio\ui\public\css" />
+      <recent name="C:\JavaScript\os-portfolio\ui\public\img" />
+      <recent name="C:\JavaScript\os-portfolio\ui\src\css\fontsawesome" />
+      <recent name="C:\JavaScript\os-portfolio\ui\src\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JavaScript\os-portfolio\ui\public\css" />
+      <recent name="C:\JavaScript\os-portfolio\ui\public" />
+      <recent name="C:\JavaScript\os-portfolio" />
+      <recent name="C:\JavaScript\os-portfolio\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="" />
+      <created>1683807109445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683807109445</updated>
+      <workItem from="1683807110527" duration="5571000" />
+      <workItem from="1683884235325" duration="22861000" />
+      <workItem from="1683923073800" duration="2116000" />
+      <workItem from="1684006766706" duration="883000" />
+      <workItem from="1684089579303" duration="37578000" />
+      <workItem from="1684308619727" duration="73736000" />
+      <workItem from="1684564753367" duration="23769000" />
+      <workItem from="1686111585957" duration="8747000" />
+      <workItem from="1686173640420" duration="4347000" />
+      <workItem from="1686316158045" duration="18465000" />
+      <workItem from="1686646860473" duration="32000" />
+      <workItem from="1687423761327" duration="1231000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added projects API">
+      <created>1683889263983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889263983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added projects API">
+      <created>1683889329780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889329780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added database connection">
+      <created>1683918505804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683918505804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated project structure">
+      <created>1683923334345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683923334345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated demo screenshots">
+      <created>1684092300493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684092300493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added header">
+      <created>1684149332105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684149332105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added footer">
+      <created>1684152397010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684152397010</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added footer">
+      <created>1684154624941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684154624941</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added about page">
+      <created>1684159323553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684159323553</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated about page">
+      <created>1684186310942</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684186310942</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated about page">
+      <created>1684190231188</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684190231188</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated about page">
+      <created>1684265180658</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684265180658</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated about page">
+      <created>1684266137741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684266137741</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated header">
+      <created>1684270011374</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684270011374</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added contact page">
+      <created>1684316398626</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684316398626</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added missing semicolons">
+      <created>1684317985756</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684317985757</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added projects page">
+      <created>1684358529959</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684358529959</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated projects page">
+      <created>1684368919240</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684368919240</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated projects page">
+      <created>1684408503058</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684408503058</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated projects page">
+      <created>1684413032445</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684413032445</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated projects page">
+      <created>1684431887155</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684431887155</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated projects page">
+      <created>1684492501527</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684492501527</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Updated page titles">
+      <created>1684493285352</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684493285353</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added custom style">
+      <created>1684504119348</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684504119348</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated custom style">
+      <created>1684507115927</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684507115927</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated custom style">
+      <created>1684528365936</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684528365936</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added full screenshot view">
+      <created>1684568602808</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684568602808</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added contact page">
+      <created>1684574703590</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684574703590</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated custom style">
+      <created>1684576347518</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684576347518</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated API">
+      <created>1684607393951</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684607393967</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated API">
+      <created>1684609035833</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684609035833</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated ui starter">
+      <created>1684617133925</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684617133925</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated ui starter">
+      <created>1684617156749</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1684617156749</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated style">
+      <created>1686173952297</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686173952297</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated style">
+      <created>1686256997477</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686256997477</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated style">
+      <created>1686327095363</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686327095363</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated style">
+      <created>1686329164215</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686329164215</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Updated style">
+      <created>1686329788944</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686329788944</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated style">
+      <created>1686330100690</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1686330100690</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Updated style">
+      <created>1686330984218</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686330984218</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Updated style">
+      <created>1686331323882</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1686331323882</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Updated style">
+      <created>1686333477756</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686333477756</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Updated style">
+      <created>1686334027035</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1686334027035</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Updated style">
+      <created>1686335129145</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686335129145</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added projects api" />
+    <MESSAGE value="Added projects API" />
+    <MESSAGE value="Added database connection" />
+    <MESSAGE value="Updated project structure" />
+    <MESSAGE value="Updated demo screenshots" />
+    <MESSAGE value="Added header" />
+    <MESSAGE value="Added footer" />
+    <MESSAGE value="Added about page" />
+    <MESSAGE value="Updated about page" />
+    <MESSAGE value="Updated header" />
+    <MESSAGE value="Added contact page" />
+    <MESSAGE value="Added missing semicolons" />
+    <MESSAGE value="Added projects page" />
+    <MESSAGE value="Updated projects page" />
+    <MESSAGE value="Updated page titles" />
+    <MESSAGE value="Added custom style" />
+    <MESSAGE value="Added full screenshot view" />
+    <MESSAGE value="Updated custom style" />
+    <MESSAGE value="Updated API" />
+    <MESSAGE value="Updated ui starter" />
+    <MESSAGE value="Updated style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated style" />
+  </component>
+</project>

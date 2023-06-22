@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import {Button, Modal, ModalBody, ModalFooter, ModalHeader} from "reactstrap";
 
 interface IScreenshot {
     imageFilePath: string;
@@ -15,13 +14,10 @@ interface IPhotoConstraints {
 
 const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
     const [photoConstraints, setPhotoConstraints] = useState({} as IPhotoConstraints);
-    const [screenshotModal, setScreenshotModal] = useState(false as boolean);
 
     useEffect(() => {
         computeScreenshotConstraints(imageFilePath);
     }, []);
-
-    const displayScreenshotInFull = () => setScreenshotModal(!screenshotModal);
 
     const computeScreenshotConstraints = (imageSource: string) => {
         const photo = new Image();
@@ -54,23 +50,17 @@ const Screenshot = ({imageFilePath, alternateText}: IScreenshot) => {
     };
 
     return (
-        <figure className="screenshot-frame">
-            <img src={imageFilePath} alt={alternateText} className="img-thumbnail img-fluid d-block mx-auto mb-auto
-                screenshot" style={photoConstraints} onLoad={() => computeScreenshotConstraints(imageFilePath)}
-                 onClick={displayScreenshotInFull}/>
-
-            <Modal isOpen={screenshotModal} toggle={displayScreenshotInFull}>
-                <ModalHeader toggle={displayScreenshotInFull}>{alternateText}</ModalHeader>
-                <ModalBody>
-                    <img className="img-fluid d-block mx-auto w-auto h-auto" src={imageFilePath} alt={alternateText}/>
-                </ModalBody>
-                <ModalFooter>
-                    <Button color="secondary" onClick={displayScreenshotInFull}>
-                        Close
-                    </Button>
-                </ModalFooter>
-            </Modal>
-        </figure>
+        <div className="gallery-item screenshot-frame">
+            <a href={imageFilePath} title={alternateText}>
+                <img src={imageFilePath} alt={alternateText} className="img-fluid d-block mx-auto screenshot"
+                     style={photoConstraints}
+                     onLoad={() => computeScreenshotConstraints(imageFilePath)}/>
+                <div className="gallery-links d-flex align-items-center justify-content-center">
+                    <a href={imageFilePath} title={alternateText} className="preview-link"><i
+                        className="fa fa-expand"></i></a>
+                </div>
+            </a>
+        </div>
     );
 };
 

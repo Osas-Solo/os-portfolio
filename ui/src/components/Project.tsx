@@ -12,7 +12,6 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
 
     useEffect(() => {
         setCurrentScreenshot(screenshots[0]);
-
     }, []);
 
     const updateScreenshot = (step: number) => {
@@ -50,7 +49,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
                 </Row>
                 <Row className="justify-content-center mt-5">
                     {(sourceLink !== undefined) ? (
-                        <Col className="col-auto mb-3 me-md-2 btn btn-primary">
+                        <Col className="col-auto mb-3 mx-auto btn btn-primary">
                             <a href={sourceLink} target="_blank">
                                 <i className="devicon-github-plain me-2"/>
                                 Source
@@ -59,7 +58,7 @@ const Project = ({id, title, description, technologies, screenshots, sourceLink,
                     ) : ""}
 
                     {(demoLink !== undefined) ? (
-                        <Col className="col-auto mb-3 ms-md-2 btn btn-primary">
+                        <Col className="col-auto mb-3 mx-auto btn btn-primary">
                             <a href={demoLink} target="_blank">
                                 <i className="fas fa-play me-2"/>
                                 Demo

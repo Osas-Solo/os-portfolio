@@ -13,11 +13,13 @@
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.10",
+    "typed.js": "^2.0.16",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },

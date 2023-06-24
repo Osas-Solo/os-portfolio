@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Compressed build files">
-      <change beforePath="$PROJECT_DIR$/ui/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,21 +160,7 @@
       <workItem from="1686316158045" duration="18465000" />
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
-      <workItem from="1687429196614" duration="2449000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added projects API">
-      <created>1683889263983</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683889263983</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added projects API">
-      <created>1683889329780</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683889329780</updated>
+      <workItem from="1687429196614" duration="3022000" />
     </task>
     <task id="LOCAL-00003" summary="Added database connection">
       <created>1683918505804</created>
@@ -505,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687633474069</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Compressed build files">
+      <created>1687634001862</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1687634001863</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Compressed build files">
+      <created>1687634241823</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1687634241823</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,59 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated style">
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Result.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Signup.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Signup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Subject.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Subject.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Subject_Selection.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Subject_Selection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Test.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/CBT_Test_Setup.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/CBT_Test_Setup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Calculator_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Intro_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/FUPRE_GPA_Result_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Order.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Order.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Payment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Product.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Product.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Store.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Logitech_Systems_Store.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Intro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Confirmation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Confirmation.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Recognition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_After_Recognition.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Before_Recognition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Before_Recognition.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Initial.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Initial.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Payment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Payment.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Selection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Recogniser_Subscription_Selection.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Muse_Signup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Muse_Signup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Calculator_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Intro_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Result_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Dark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Naija_GPA_Semester_Setup_Screen_Light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Offers.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Offers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Requests.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Organisation_Requests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Placement_Offer.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Placement_Offer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Post_Placement.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Post_Placement.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Placement_Offers.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Placement_Offers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Requests.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/SIWES_Placement_Student_Requests.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Dashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Dashboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Invest.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Invest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Payment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Plans.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Investment_Plans.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_History.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_History.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_Repayment.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/img/Star_Cooperative_Loan_Repayment.png" afterDir="false" />
+    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated screenshots">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +34,7 @@
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="master" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ui" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -97,40 +48,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
-    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "16.15.1",
-    "javascript.nodejs.core.library.typings.version": "16.18.28",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/JavaScript/os-portfolio/ui/public/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "ts.external.directory.path": "C:\\JavaScript\\os-portfolio\\ui\\node_modules\\typescript\\lib",
-    "ts.rename.search.for.js.occurrences": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.28&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/tinypng-optimizer-1.0.8.zip&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\JavaScript\\os-portfolio\\ui\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.rename.search.for.js.occurrences&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaScript\os-portfolio\ui\public\img" />
       <recent name="C:\JavaScript\os-portfolio\ui\src\css" />
       <recent name="C:\JavaScript\os-portfolio\ui\public\css" />
-      <recent name="C:\JavaScript\os-portfolio\ui\public\img" />
       <recent name="C:\JavaScript\os-portfolio\ui\src\css\fontsawesome" />
       <recent name="C:\JavaScript\os-portfolio\ui\src\js" />
     </key>
@@ -210,7 +161,8 @@
       <workItem from="1686173640420" duration="4347000" />
       <workItem from="1686316158045" duration="18465000" />
       <workItem from="1686646860473" duration="32000" />
-      <workItem from="1687423761327" duration="1231000" />
+      <workItem from="1687423761327" duration="4511000" />
+      <workItem from="1687429196614" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects API">
       <created>1683889263983</created>
@@ -520,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686335129145</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Updated style">
+      <created>1687425541921</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1687425541921</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +544,7 @@
     <MESSAGE value="Updated custom style" />
     <MESSAGE value="Updated API" />
     <MESSAGE value="Updated ui starter" />
-    <MESSAGE value="Updated style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated style" />
+    <MESSAGE value="Updated screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated screenshots" />
   </component>
 </project>

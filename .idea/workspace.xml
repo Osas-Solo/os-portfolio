@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Compressed build files">
-      <change beforePath="$PROJECT_DIR$/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <workItem from="1686316158045" duration="18465000" />
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
-      <workItem from="1687429196614" duration="1829000" />
+      <workItem from="1687429196614" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects API">
       <created>1683889263983</created>
@@ -485,7 +484,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687632486861</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Compressed build files">
+      <created>1687633380559</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1687633380559</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Compressed build files">
+      <created>1687633465167</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1687633465167</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Compressed build files">
+      <created>1687633474069</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1687633474069</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

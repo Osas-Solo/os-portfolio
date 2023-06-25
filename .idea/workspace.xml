@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Compressed build files">
-      <change afterPath="$PROJECT_DIR$/ui/public/img/OS_Portfolio_About.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/img/OS_Portfolio_Contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/img/OS_Portfolio_Projects.png" afterDir="false" />
+    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated screenshots">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/components/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/AboutPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,21 +161,7 @@
       <workItem from="1686316158045" duration="18465000" />
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
-      <workItem from="1687429196614" duration="7156000" />
-    </task>
-    <task id="LOCAL-00004" summary="Updated project structure">
-      <created>1683923334345</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1683923334345</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated demo screenshots">
-      <created>1684092300493</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684092300493</updated>
+      <workItem from="1687429196614" duration="8431000" />
     </task>
     <task id="LOCAL-00006" summary="Added header">
       <created>1684149332105</created>
@@ -507,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687634600512</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Updated screenshots">
+      <created>1687696737395</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687696737395</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Updated screenshots">
+      <created>1687698233945</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687698233945</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,8 +571,8 @@
     <MESSAGE value="Updated custom style" />
     <MESSAGE value="Updated API" />
     <MESSAGE value="Updated ui starter" />
-    <MESSAGE value="Updated screenshots" />
     <MESSAGE value="Compressed build files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compressed build files" />
+    <MESSAGE value="Updated screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated screenshots" />
   </component>
 </project>

@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated screenshots">
-      <change afterPath="$PROJECT_DIR$/ui/public/ror.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/sitemap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/urllist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ui/.gitignore" afterDir="false" />
+    <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Added sitemap">
+      <change beforePath="$PROJECT_DIR$/ui/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +161,7 @@
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
       <workItem from="1687429196614" duration="12806000" />
-      <workItem from="1688137028031" duration="895000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added about page">
-      <created>1684159323553</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1684159323553</updated>
+      <workItem from="1688137028031" duration="1193000" />
     </task>
     <task id="LOCAL-00010" summary="Updated about page">
       <created>1684186310942</created>
@@ -511,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687701116603</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Added sitemap">
+      <created>1688137978198</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1688137978198</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,6 +573,7 @@
     <MESSAGE value="Updated ui starter" />
     <MESSAGE value="Compressed build files" />
     <MESSAGE value="Updated screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated screenshots" />
+    <MESSAGE value="Added sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sitemap" />
   </component>
 </project>

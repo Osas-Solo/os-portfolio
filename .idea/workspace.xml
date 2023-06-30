@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Updated screenshots">
-      <change beforePath="$PROJECT_DIR$/ui/src/components/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/AboutPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/public/ror.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/public/sitemap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/public/urllist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ui/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     "javascript.nodejs.core.library.configured.version": "16.15.1",
     "javascript.nodejs.core.library.typings.version": "16.18.28",
     "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/JavaScript/os-portfolio/ui/public/img",
+    "last_opened_file_path": "C:/JavaScript/os-portfolio/ui/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,11 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaScript\os-portfolio\ui\public" />
       <recent name="C:\JavaScript\os-portfolio\ui\public\img" />
       <recent name="C:\JavaScript\os-portfolio\ui\src\css" />
       <recent name="C:\JavaScript\os-portfolio\ui\public\css" />
       <recent name="C:\JavaScript\os-portfolio\ui\src\css\fontsawesome" />
-      <recent name="C:\JavaScript\os-portfolio\ui\src\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JavaScript\os-portfolio\ui\public\css" />
@@ -90,7 +95,7 @@
       <recent name="C:\JavaScript\os-portfolio\backend" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start (1)">
+  <component name="RunManager" selected="npm.dev (1)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="run" />
@@ -133,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
@@ -160,21 +165,8 @@
       <workItem from="1686316158045" duration="18465000" />
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
-      <workItem from="1687429196614" duration="10339000" />
-    </task>
-    <task id="LOCAL-00007" summary="Added footer">
-      <created>1684152397010</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1684152397010</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added footer">
-      <created>1684154624941</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1684154624941</updated>
+      <workItem from="1687429196614" duration="12806000" />
+      <workItem from="1688137028031" duration="895000" />
     </task>
     <task id="LOCAL-00009" summary="Added about page">
       <created>1684159323553</created>
@@ -505,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687698592211</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Updated screenshots">
+      <created>1687701100267</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1687701100267</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Updated screenshots">
+      <created>1687701116603</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1687701116603</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

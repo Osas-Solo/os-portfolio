@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c8b50f-03dc-4714-bd4c-47d4e4e52ebd" name="Changes" comment="Added sitemap">
-      <change beforePath="$PROJECT_DIR$/ui/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2970797-877f-4f0a-b358-3e7444d42a7d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2970797-877f-4f0a-b358-3e7444d42a7d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2PeAKJdSSGqDsyznHhQsJaJyKZf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,7 +59,7 @@
     "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "16.15.1",
-    "javascript.nodejs.core.library.typings.version": "16.18.28",
+    "javascript.nodejs.core.library.typings.version": "",
     "js.last.introduce.type": "CONST",
     "last_opened_file_path": "C:/JavaScript/os-portfolio/ui/public",
     "list.type.of.created.stylesheet": "CSS",
@@ -65,7 +70,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\JavaScript\\os-portfolio\\ui\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\JavaScript\\os-portfolio\\backend\\node_modules\\typescript\\lib",
     "ts.rename.search.for.js.occurrences": "false",
     "vue.rearranger.settings.migration": "true"
   },
@@ -161,14 +166,8 @@
       <workItem from="1686646860473" duration="32000" />
       <workItem from="1687423761327" duration="4511000" />
       <workItem from="1687429196614" duration="12806000" />
-      <workItem from="1688137028031" duration="1193000" />
-    </task>
-    <task id="LOCAL-00010" summary="Updated about page">
-      <created>1684186310942</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684186310942</updated>
+      <workItem from="1688137028031" duration="1666000" />
+      <workItem from="1695375934036" duration="544000" />
     </task>
     <task id="LOCAL-00011" summary="Updated about page">
       <created>1684190231188</created>
@@ -506,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688137978198</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Added sitemap">
+      <created>1688138257973</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1688138257973</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
